@@ -1,6 +1,6 @@
 # Noip telegram bot
 
-## How to run:
+  ## Require:
   - set environment variable:
   ```bash
   export BOT_TOKEN=<your bot telegram bot token>
@@ -42,7 +42,7 @@
   docker run -it \
   --restart always \
   --name noip-telegram-bot \
-  -e BOT_TOKEN=<your telegram bot token> \
+  -e BOT_TOKEN=5329867726:AAH-mkpyr7cQmWXx7k8pFel72bFyukV2sk0 \
   -v /your/path/to/mapper.json:/app/resources/mapper.json \
   baristi000/noip-telegram-bot:latest
   ```
