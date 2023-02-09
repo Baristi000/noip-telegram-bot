@@ -1,7 +1,7 @@
 # Noip telegram bot
 
   ## Require:
-  - set environment variable:
+  - Setup telegram bot to get token and set it to environment variable:
   ```bash
   export BOT_TOKEN=<your bot telegram bot token>
   ```
